@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="../main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=dashboard"
+    />
+  </head>
+  <body class="bg-slate-900">
+    <div class="container h-screen w-screen relative flex">
+      <!-- navbar section -->
+      <div
+        class="w-full flex items-center justify-between fixed top-0 left-0 px-10 h-20 shadow-lg"
+      >
+        <div class="flex items-center gap-2 text-white">
+          <img
+            class="w-12 h-12 mr-2"
+            src="https://www.drupal.org/files/project-images/screenshot_361.png"
+            alt=""
+          />
+          <h2 class="text-2xl font-bold">
+            kob <span class="text-cyan-300">Admin</span>
+          </h2>
+          <h2 class="text-3xl ml-16 text-amber-700">Analysis</h2>
+        </div>
+        <div class="flex items-center gap-8">
+          <div class="text-xl">
+            <p class="text-white">
+              Hello Aj <span class="text-cyan-300">Admin</span>
+            </p>
+          </div>
+          <div class="text-white gap-4 flex text-xl items-center">
+            <i class="fa-solid fa-circle-info"></i>
+            <i class="fa-solid fa-users-gear"></i>
+            <i class="fa-solid fa-bell"></i>
+            <div class="flex">
+              <img
+                class="w-12 h-12 border-2 border-green-500 rounded-full"
+                src="https://cdn.pixabay.com/photo/2014/03/25/16/54/user-297566_960_720.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- navbar section -->
+
+      <!-- sidebar -->
+      <div
+        class="w-60 h-[850px] text-white bg-gray-800 flex flex-col fixed ml-10 top-24 space-y-2 rounded-3xl z-5"
+      >
+        <!-- <div class="flex items-center w-full justify-center pt-1">
+          <p class="text-xl text-amber-300">Panel Dashboard</p>
+        </div> -->
+        <div class="w-full flex items-center justify-center mt-4">
+          <img
+            class="w-20 h-20 object-cover rounded-full"
+            src="https://cdn.pixabay.com/photo/2013/07/13/01/15/preferences-155386_640.png"
+            alt=""
+          />
+        </div>
+        <div class="w-full flex justify-center text-xl">
+          <p class="text-gray-400">
+            Role : <span class="text-cyan-300">Super Admin</span>
+          </p>
+        </div>
+        <div class="w-full flex justify-center">
+          <p class="text-gray-300">work from balance</p>
+        </div>
+
+        <!-- section button -->
+        <div class="flex w-full flex-col items-center gap-1 p-3 h-full">
+          <div
+            class="w-full flex items-center justify-center px-10 hover:bg-[#181a1e]"
+          >
+            <i class="fa-solid fa-bars text-orange-500 text-2xl"></i>
+            <button class="p-2 w-full">Dashboard</button>
+          </div>
+
+          <div
+            class="w-full flex items-center justify-center px-10 hover:bg-[#181a1e]"
+          >
+            <i class="fa-solid fa-user text-orange-500 text-2xl"></i>
+            <button class="p-2 w-full">User</button>
+          </div>
+          <div
+            class="w-full flex items-center justify-center px-10 hover:bg-[#181a1e]"
+          >
+            <i class="fa-solid fa-timeline text-orange-500 text-2xl"></i>
+            <button class="p-2 w-full">History</button>
+          </div>
+          <div
+            class="w-full flex items-center justify-center px-10 hover:bg-[#181a1e]"
+          >
+            <i class="fa-solid fa-chart-pie text-orange-500 text-2xl"></i>
+            <button class="p-2 w-full">Analysis</button>
+          </div>
+          <div
+            class="w-full flex items-center justify-center px-10 hover:bg-[#181a1e]"
+          >
+            <i class="fa-solid fa-ticket text-orange-500 text-2xl"></i>
+            <button class="p-2 w-full">Tickets</button>
+          </div>
+
+          <div
+            class="w-full flex items-center justify-center px-10 hover:bg-[#181a1e]"
+          >
+            <i class="fa-solid fa-paper-plane text-orange-500 text-2xl"></i>
+            <button class="p-2 w-full">Sale List</button>
+          </div>
+          <div
+            class="w-full flex items-center justify-center px-10 hover:bg-[#181a1e]"
+          >
+            <i class="fa-solid fa-info text-orange-500 text-2xl"></i>
+            <button class="p-2 w-full pr-1">Report</button>
+          </div>
+          <div
+            class="w-full flex items-center justify-center px-10 hover:bg-[#181a1e]"
+          >
+            <i class="fa-solid fa-gear text-orange-500 text-2xl"></i>
+            <button class="p-2 w-full">Setting</button>
+          </div>
+          <div
+            class="w-full flex items-center justify-center px-10 hover:bg-[#181a1e]"
+          >
+            <i class="fa-solid fa-bars text-orange-500 text-2xl"></i>
+            <button class="p-2 w-full">Report</button>
+          </div>
+          <div
+            class="w-full flex items-center justify-center px-10 hover:bg-[#181a1e]"
+          >
+            <i
+              class="fa-solid fa-right-from-bracket text-orange-500 text-2xl"
+            ></i>
+            <button class="p-2 w-full">Logout</button>
+          </div>
+        </div>
+
+        <!-- section button -->
+      </div>
+      <!-- sidebar -->
+
+      <!-- main section -->
+      <div class="flex-1 ml-20 items-center text-white w-full fixed top-16">
+        <div class="flex justify-between items-center mt-10 px-60 mb-4 mr-12">
+          <h1 class="text-2xl font-bold text-white">
+            Total Income
+            <i class="fa-solid fa-sack-dollar ms-2"></i>
+          </h1>
+          <div class="flex space-x-4 mr-80">
+            <button
+              class="px-6 py-2 hover:bg-gray-100 hover:text-orange-500 bg-orange-500 rounded-full"
+            >
+              <i class="fa-solid fa-chart-simple mr-2"></i>Chart
+            </button>
+            <button
+              class="px-6 py-2 hover:bg-gray-100 hover:text-orange-500 bg-green-500 rounded-full"
+            >
+              <i class="fa-solid fa-truck mr-2"></i>Delivery
+            </button>
+            <button
+              class="px-6 py-2 hover:bg-gray-100 hover:text-orange-500 bg-black rounded-full"
+            >
+              <i class="fa-solid fa-box mr-2"></i>Stock
+            </button>
+            <button
+              class="px-6 py-2 hover:bg-gray-100 hover:text-orange-500 bg-gray-600 rounded-full"
+            >
+              <i class="fa-solid fa-chart-simple mr-2"></i>ALL
+            </button>
+          </div>
+        </div>
+
+        <!-- section collection -->
+        <div class="flex ml-60 gap-14">
+          <div
+            class="bg-[#202528] flex flex-col p-6 rounded-2xl w-80 border-2 border-cyan-300"
+          >
+            <div class="flex items-center justify-between">
+              <div class="flex flex-col gap-2">
+                <h3 class="text-lg text-cyan-300">Total Sale</h3>
+                <p class="text-3xl">$56</p>
+                <p class="text-green-500">
+                  <i class="fa-solid fa-arrow-up mt-2 text-green-500"></i> +
+                  5.15%
+                </p>
+              </div>
+
+              <div>
+                <img
+                  class="w=16 h-16"
+                  src="https://static.cdnlogo.com/logos/p/82/pc-gear.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-[#202528] flex flex-col p-6 rounded-2xl w-80 border-2 border-cyan-300"
+          >
+            <div class="flex items-center justify-between">
+              <div class="flex flex-col gap-2">
+                <h3 class="text-lg text-cyan-300">Total Sale</h3>
+                <p class="text-3xl">$56</p>
+                <p class="text-green-500">
+                  <i class="fa-solid fa-arrow-up mt-2 text-green-500"></i> +
+                  5.15%
+                </p>
+              </div>
+
+              <div>
+                <img
+                  class="w=16 h-16"
+                  src="https://static.cdnlogo.com/logos/a/81/aston-villa-fc.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="bg-[#202528] flex flex-col p-6 rounded-2xl w-80 border-2 border-cyan-300"
+          >
+            <div class="flex items-center justify-between">
+              <div class="flex flex-col gap-2">
+                <h3 class="text-lg text-cyan-300">Total Sale</h3>
+                <p class="text-3xl">$56</p>
+                <p class="text-green-500">
+                  <i class="fa-solid fa-arrow-up mt-2 text-green-500"></i> +
+                  5.15%
+                </p>
+              </div>
+
+              <div>
+                <img
+                  class="w=16 h-16"
+                  src="https://static.cdnlogo.com/logos/m/7/max-3-biaggi.svg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- end section collection -->
+
+        <!-- user Working -->
+
+        <div class="ml-60 mt-6">
+          <h2 class="text-xl">
+            User Working
+            <i class="fa-solid fa-users ml-1 text-orange-500"></i>
+          </h2>
+
+          <div
+            class="bg-gray-800 flex items-center justify-around p-10 w-[1080px] rounded-xl"
+          >
+            <div class="flex flex-col items-center gap-2">
+              <img
+                class="w-12 h-12 rounded-full object-cover"
+                src="https://cdn.pixabay.com/photo/2023/07/30/00/12/cat-8157889_640.png"
+                alt=""
+              />
+              <h3>AJ kob</h3>
+              <p>online now</p>
+            </div>
+
+            <div class="flex flex-col items-center gap-2">
+              <img
+                class="w-12 h-12 rounded-full object-cover"
+                src="https://cdn.pixabay.com/photo/2023/07/30/00/12/cat-8157889_640.png"
+                alt=""
+              />
+              <h3>AJ kob</h3>
+              <p>online now</p>
+            </div>
+
+            <div class="flex flex-col items-center gap-2">
+              <img
+                class="w-12 h-12 rounded-full object-cover"
+                src="https://cdn.pixabay.com/photo/2023/07/30/00/12/cat-8157889_640.png"
+                alt=""
+              />
+              <h3>AJ kob</h3>
+              <p>online now</p>
+            </div>
+
+            <div class="flex flex-col items-center gap-2">
+              <img
+                class="w-12 h-12 rounded-full object-cover"
+                src="https://cdn.pixabay.com/photo/2023/07/30/00/12/cat-8157889_640.png"
+                alt=""
+              />
+              <h3>AJ Jame</h3>
+              <p>online now</p>
+            </div>
+
+            <div class="flex flex-col items-center gap-2">
+              <img
+                class="w-12 h-12 rounded-full object-cover"
+                src="https://cdn.pixabay.com/photo/2023/07/30/00/12/cat-8157889_640.png"
+                alt=""
+              />
+              <h3>AJ Dang</h3>
+              <p>online now</p>
+            </div>
+
+            <div class="flex flex-col items-center gap-2">
+              <img
+                class="w-12 h-12 rounded-full object-cover"
+                src="https://cdn.pixabay.com/photo/2023/07/30/00/12/cat-8157889_640.png"
+                alt=""
+              />
+              <h3>AJ Jeny</h3>
+              <p>offline</p>
+            </div>
+          </div>
+        </div>
+        <!-- End user Working -->
+        <!-- recent order  -->
+        <div class="ml-60 mt-4">
+          <h2>Recent Order</h2>
+          <div
+            class="bg-gray-800 flex items-center justify-around p-6 w-[1080px] rounded-xl"
+          >
+            <table class="w-full">
+              <thead class="">
+                <tr class="text-left text-gray-500">
+                  <th class="pb-3 px-7">Name</th>
+                  <th class="pb-3 px-7">Price</th>
+                  <th class="pb-3 px-7">Number</th>
+                  <th class="pb-3 px-7">Payment</th>
+                  <th class="pb-3 px-7">Status</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="pb-3 px-7 text-orange-500">Tailwind</td>
+                  <td class="pb-3 px-7">799</td>
+                  <td class="pb-3 px-7">100</td>
+                  <td class="pb-3 px-7">Truemoney</td>
+                  <td class="pb-3 px-7 text-red-500">Open</td>
+                  <td class="pb-3 px-7">Detail</td>
+                </tr>
+                <tr>
+                  <td class="pb-3 px-7 text-orange-500">Tailwind</td>
+                  <td class="pb-3 px-7">799</td>
+                  <td class="pb-3 px-7">100</td>
+                  <td class="pb-3 px-7">Truemoney</td>
+                  <td class="pb-3 px-7 text-green-500">Succes</td>
+                  <td class="pb-3 px-7">Detail</td>
+                </tr>
+                <tr>
+                  <td class="pb-3 px-7 text-orange-500">Tailwind</td>
+                  <td class="pb-3 px-7">799</td>
+                  <td class="pb-3 px-7">100</td>
+                  <td class="pb-3 px-7">Truemoney</td>
+                  <td class="pb-3 px-7 text-gray-500">Pending</td>
+                  <td class="pb-3 px-7">Detail</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <!-- recent order  -->
+      </div>
+      <!-- main section -->
+
+      <!-- right section -->
+      <div class="w-96 h-80 fixed bg-[#202528] right-24 top-36">
+        <div class="flex flex-col items-center justify-center">
+          <div class="flex items-center justify-center">
+            <img
+              class="w-48 h-48 object-cover rounded-full mt-10"
+              src="https://static.cdnlogo.com/logos/l/10/localbitcoins.svg"
+              alt=""
+            />
+          </div>
+          <div
+            class="flex flex-col items-center justify-center mt-4 text-xl text-white gap-y-4"
+          >
+            <p>Admin Dashboard</p>
+            <p class="text-gray-500">I am Web Developer</p>
+          </div>
+        </div>
+      </div>
+      <!-- right2 section -->
+      <div class="w-96 bg-[#202528] fixed top-[480px] right-20">
+        <div class="">
+          <div
+            class="flex justify-between items-center text-orange-600 text-3xl"
+          >
+            <h3>Reminder</h3>
+            <i class="fa-solid fa-phone-volume"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end containner -->
+  </body>
+</html>
